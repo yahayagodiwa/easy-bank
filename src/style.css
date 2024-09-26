@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fafafa;
+  font-family: "Public Sans", sans-serif;
+  font-size: 18px;
+  color: #2d314d;
+}
+ .mockupbg{
+  background: url(/images/bg-intro-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding: 90px; */
+ }
+.icon-list img {
+  margin: 0 auto;
+  padding: 20px 0 5px 0;
+}
+
+.icon-list h2 {
+  font-weight: 700;
+  padding: 5px 0;
+}
+
+
+
+@media screen and (min-width: 763px) {
+  .icon-list img {
+    margin: 0;
+    padding: 20px 0 5px 0;
+  }
+
+  
+}
