@@ -17,7 +17,7 @@ body {
   /* padding: 90px; */
  }
 .icon-list img {
-  margin: 0 auto;
+  margin: 0;
   padding: 20px 0 5px 0;
 }
 
@@ -28,11 +28,13 @@ body {
 
 
 
-@media screen and (min-width: 763px) {
+@media screen and (max-width: 950px) {
   .icon-list img {
-    margin: 0;
+    margin: 0 auto;
     padding: 20px 0 5px 0;
   }
-
+article img{
+  width: 100%;
+}
   
 }
